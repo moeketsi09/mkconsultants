@@ -1,0 +1,113 @@
+body
+{
+	font-family: , sans-serief;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin:0;
+	background-color: grey;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+header{
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #800000 3px solid;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #logo{
+	float:left;
+}
+header #logo h1{
+	margin: 0;
+}
+header nav {
+	float:right;
+	margin-top: 10px;
+}
+header .current a{
+	color: #800000;
+	font-weight: bold;
+}
+header a:hover{
+	color:#405388;
+	font-weight: bold;
+}
+#show{
+	min-height:400px;
+	background:url('./img/show.jpg')0 -300px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #800000;
+
+
+}
+#show h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+#show p{
+	font-size: 20px;
+	color:  #800000;
+	font-weight:bold;
+}
+#overlay{
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	height: 100%;
+	width: 100%;
+}
+#show .container{
+	position: relative;
+	z-index: 2;
+}
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float:left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+#boxes .box img{
+	width: 90px;
+}
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	text-align: center; 
+	background-color: #800000;
+}
+article#main-col{
+	float:left;
+	width: 65%;
+}
+.quote input, .quote textarea{
+	display: block;
+	width: 90%;
+	padding: 5px;
+}
